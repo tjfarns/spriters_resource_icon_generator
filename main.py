@@ -7,10 +7,10 @@ ICON_WIDTH = 148
 ICON_HEIGHT = 125
 
 # This is an optional setting used to determine how far up and down you should scan for the 
-# leftmost edge of a sprite from the top of the image. In addition to improving performace, 
+# leftmost edge of a sprite from the top of the image. In addition to slightly improving performace, 
 # it also helps prevent you from running into any other sprites further down the sheet. 
 # I usually set it equal to the size of each "row" on my spritesheets. 
-use_scan_height = True
+use_scan_height = False
 SCAN_HEIGHT = 64
 
 def crop_all_files():
